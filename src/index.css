@@ -27,8 +27,17 @@ h2 {
   font-weight: bolder;
 }
 
-p {
-  font: 18px/1 "EB Garamond";
+p, .nav-link {
+  font: 19px/1 "EB Garamond";
   line-height: 1.3;
   text-align: justify;
+}
+
+.grey {
+  filter: grayscale(95%);
+  transition: 0.5s, ease;
+}
+
+.grey:hover {
+  filter: grayscale(0%);
 }
