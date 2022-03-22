@@ -10,33 +10,33 @@ function Home() {
                     <Navbar/>
                 </div>
                 <div className={"row-start-2 col-span-3 border-r-2 border-black"}>
-                    <div className={"grid auto-rows-min grid-cols-4 gap-y-3 gap-x-5"}>
+                    <div className={"grid auto-rows-min grid-cols-4 gap-y-3 gap-x-7"}>
                         <h2 className={"row-start-1 col-span-full mb-3.5"}>A dedicated Full Stack Developer is looking
                             to join your team!</h2>
                         <div className={"row-start-2 row-span-2 col-span-1 flex flex-col gap-4"}>
-                            <p>Hi! I'm Edgar, a developer with a passion for many
-                                different fields of computer science and software engineering. Most of my working
-                                experience
-                                has been as a full stack developer, creating different kinds of web services and their
-                                corresponding front end applications.
+                            <p>I've build my experience as a Full Stack developer creating different kinds of
+                                websites and services both as a freelancer and a hired developer on 2 start ups. Most of
+                                my experience comes from working as Full Stack web developer but I have also worked on
+                                pure front-end for ecommerce and even developing webservices for call centers' systems.
                             </p>
-                            <p>I started learning to program
-                                around {Math.abs(new Date(Date.now() - new Date('2014-01-01')).getUTCFullYear() - 1970)} years
-                                ago when I
-                                was 14 years old. Ever since that age I've studied, both in school and my free time,
-                                many
-                                different tools for developing, deploying and maintaining projects focused on web
-                                consumption or even on web architecture.
+                            <p>I have solid knowledge on javascript and some of its more common libraries and
+                                frameworks like react, angular and jquery. I'm also well acquainted with different back
+                                end frameworks being Spring (Java) and Express (Node) the ones I use the most, but I'm
+                                proficient with Python and Php frameworks too and also have basic knowledge on .Net and
+                                Rust developing.
                             </p>
                         </div>
                         <div className={"row-start-2 row-span-2 col-span-1 flex flex-col gap-4"}>
-                            <p>As you can see this is my personal page which I use to
-                                secure job interviews or to brag among my colleagues, but it doesn't matter how you get
-                                to this page. Here you can check some personal projects I have been working on or
-                                reference of the work I've made on the different places I worked on.</p>
-                            <p>Apart from computers I'm interested on sports (like olympic games, american
-                                football, some e-sports and obviously chess). I also like to cook many things although I usually
-                                prefer to eat at good restaurants <nav className={"grey inline"}>😅</nav>
+                            <p>
+                                I'm currently studying Computer Engineering at the University of Guadalajara and have
+                                been a Software Development Technologist
+                                for {Math.abs(new Date(Date.now() - new Date('2019-01-01')).getUTCFullYear() - 1970)} years,
+                                graduated from the Centro de Enseñanza Tecnica Industrial (CETI).</p>
+                            <p> As you can see this is my personal page where I display some of my work and
+                                sometimes post guides that I think will be useful for other developers specially for the
+                                spanish speaking community. </p>
+                            <p> If you are interested in contacting me to talk business you
+                                can find all my related information here.
                             </p>
                         </div>
                     </div>
