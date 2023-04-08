@@ -22,9 +22,24 @@ h1 {
 }
 
 h2 {
-  font: 47px/1 "Playfair Display";
+  font: 42px/1 "Playfair Display";
   font-style: italic;
   font-weight: bolder;
+}
+
+h3 {
+  font: 24px/1 "Playfair Display";
+  font-weight: bold;
+}
+
+h4 {
+  font: 20px/1 "Playfair Display";
+  font-weight: normal;
+}
+
+hr {
+  border-style: solid;
+  border-color: #000;
 }
 
 p, .nav-link {
@@ -41,3 +56,15 @@ p, .nav-link {
 .grey:hover {
   filter: grayscale(0%);
 }
+
+img {
+  width: 100%;
+  filter: grayscale(95%);
+  margin-bottom: 0.5rem;
+  border: 1px solid #000;
+  transition: 0.3s ease;
+}
+
+img:hover {
+   filter: grayscale(0);
+ }
