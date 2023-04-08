@@ -8,6 +8,24 @@ export default function Contact() {
                     <Navbar/>
                 </div>
 
+
+                <div className={"flex gap-x-14 col-span-full row-span-1"}>
+                    <h3>Email</h3>
+                    <h4><a href={"mailto:edgar.agustin.martinez@gmail.com"}>edgar.agustin.martinez@gmail.com</a></h4>
+                    <h4></h4>
+                </div>
+
+                <div className={"flex gap-x-11 col-span-full row-span-1"}>
+                    <h3>Github</h3>
+                    <h4><a href={"https://www.github.com/EdgarMtz00"}>github.com/EdgarMtz00</a></h4>
+                    <h4></h4>
+                </div>
+
+                <div className={"flex gap-x-6 col-span-full row-span-1"}>
+                    <h3>Linkedin</h3>
+                    <h4><a href={"https://www.linkedin.com/in/edgar-agustin-mtz-glez"}>linkedin.com/in/edgar-agustin-mtz-glez</a></h4>
+                    <h4></h4>
+                </div>
             </div>
         </div>
     );
