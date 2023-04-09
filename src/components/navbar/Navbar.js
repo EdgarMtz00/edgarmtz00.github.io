@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from "react-router-dom";
 
 function Navbar() {
     return (
@@ -13,13 +14,13 @@ function Navbar() {
             <aside className={"border-t-2 border-b-2 border-black p-1 w-full self-center"}>
                 <div className={"border-t border-b border-black p-3 flex justify-around"}>
                     <div className={"nav-link"}>
-                        <a href="/"><b>Resume</b></a>
+                        <Link to="/"><b>Resume</b></Link>
                     </div>
                     <div className={"nav-link"}>
-                        <a href="/">{new Date(Date.now()).toDateString()}</a>
+                        {new Date(Date.now()).toDateString()}
                     </div>
                     <div className={"nav-link"}>
-                        <a href="/contact"><b>Contact</b></a>
+                        <Link to="/contact"><b>Contact</b></Link>
                     </div>
                 </div>
             </aside>

@@ -3,7 +3,7 @@ import Navbar from '../../components/navbar/Navbar';
 export default function Home() {
     return (
         <div className={"flex justify-center"}>
-            <div className={"Home grid grid-cols-4 auto-rows-min gap-4  w-3/5"}>
+            <div className={"Home lg:grid grid-cols-4 auto-rows-min gap-4  lg:w-3/5"}>
                 <div className={"col-span-full row-span-1"}>
                     <Navbar/>
                 </div>
@@ -29,7 +29,7 @@ export default function Home() {
                                     Software Engineer <br/>
                                     Gray Wolf, Guadalajara
                                 </h3>
-                                <ul className={"list-disc mx-2.5 px-2"}>
+                                <ul className={"list-disc mx-2.5 px-2 hidden lg:block"}>
                                     <li>
                                         Creation of Custom Application that integrate
                                         with shopify, to automate the handling of
@@ -54,7 +54,7 @@ export default function Home() {
                                     Java Developer <br/>
                                     Freelancing IVR Systems Development, Guadalajara
                                 </h3>
-                                <ul className={"list-disc mx-2.5 px-2"}>
+                                <ul className={"list-disc mx-2.5 px-2 hidden lg:block"}>
                                     <li>
                                         Build web services using Java EE or Spring 4.
                                     </li>
@@ -80,7 +80,7 @@ export default function Home() {
                                     Backend Developer <br/>
                                     Software Solutions Company, Guadalajara
                                 </h3>
-                                <ul className={"list-disc mx-2.5 px-2"}>
+                                <ul className={"list-disc mx-2.5 px-2 hidden lg:block"}>
                                     <li>
                                         Rest API Development with CakePHP and Laravel for 3 web applications
                                     </li>
@@ -100,23 +100,20 @@ export default function Home() {
                                 <h4 className={"self-center"}>-</h4>
                                 <h4 className={"self-center"}>2019</h4>
                             </div>
-                            <div className={"row-start-1 col-span-1"}>
+                            <div className={"row-start-1 col-span-4"}>
                                 <h3>
                                     Software Development Technologist <br/>
                                     CETI Colomos - Guadalajara, Jalisco. Mexico
                                 </h3>
-                                <ul className={"list-disc mx-2.5 px-2"}>
-                                    <li>
-                                        Rest API Development with CakePHP and Laravel for 3 web applications
-                                    </li>
-                                </ul>
                             </div>
                         </div>
                     </div>
 
                 </div>
-                <div className={""}>
-                    <img src={'io.jpg'} alt={'Edgar Martinez'}/>
+                <div>
+                    <img className={"hidden lg:block"} src={'io.jpg'} alt={'Edgar Martinez'}/>
+
+                    <hr/>
 
                     <div className={"my-2"}>
                         <h2 className={"mb-2"}>Certifications</h2>
