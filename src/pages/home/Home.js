@@ -19,12 +19,30 @@ export default function Home() {
                             <hr/>
                         </div>
                         <div className={"grid gap-y-7 gap-x-5 row-start-3 col-span-full mb-3.5 px-2"}>
+                            
                             <div className={"flex flex-col row-start-1  col-span-1 px-2.5"}>
+                                <h4 className={"self-center"}>2023-05</h4>
+                                <h4 className={"self-center"}>-</h4>
+                                <h4 className={"self-center"}>Current</h4>
+                            </div>
+                            <div className={"row-start-1 col-span-1"}>
+                                <h3>
+                                    Java Developer <br/>
+                                    Internacional de Sistema de Imagen, Guadalajara
+                                </h3>
+                                <ul className={"list-disc mx-2.5 px-2 hidden lg:block"}>
+                                    <li>
+                                        Development of products for managing loans for many banks and financial institutions
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div className={"flex flex-col row-start-2  col-span-1 px-2.5"}>
                                 <h4 className={"self-center"}>2021-08</h4>
                                 <h4 className={"self-center"}>-</h4>
                                 <h4 className={"self-center"}>2023-03</h4>
                             </div>
-                            <div className={"row-start-1 col-span-1"}>
+                            <div className={"row-start-2 col-span-1"}>
                                 <h3>
                                     Software Engineer <br/>
                                     Gray Wolf, Guadalajara
@@ -44,12 +62,12 @@ export default function Home() {
                                 </ul>
                             </div>
 
-                            <div className={"flex flex-col row-start-2  col-span-1 px-2.5"}>
+                            <div className={"flex flex-col row-start-3  col-span-1 px-2.5"}>
                                 <h4 className={"self-center"}>2020-05</h4>
                                 <h4 className={"self-center"}>-</h4>
                                 <h4 className={"self-center"}>2021-07</h4>
                             </div>
-                            <div className={"row-start-2 col-span-1"}>
+                            <div className={"row-start-3 col-span-1"}>
                                 <h3>
                                     Java Developer <br/>
                                     Freelancing IVR Systems Development, Guadalajara
@@ -70,12 +88,12 @@ export default function Home() {
                                 </ul>
                             </div>
 
-                            <div className={"flex flex-col  row-start-3  col-span-1 px-2.5"}>
+                            <div className={"flex flex-col  row-start-4  col-span-1 px-2.5"}>
                                 <h4 className={"self-center"}>2019-09</h4>
                                 <h4 className={"self-center"}>-</h4>
                                 <h4 className={"self-center"}>2020-02</h4>
                             </div>
-                            <div className={"row-start-3 col-span-1"}>
+                            <div className={"row-start-4 col-span-1"}>
                                 <h3>
                                     Backend Developer <br/>
                                     Software Solutions Company, Guadalajara
@@ -88,13 +106,13 @@ export default function Home() {
                             </div>
                         </div>
 
-                        <div className={"row-start-4 col-span-full mb-3.5 px-2"}>
+                        <div className={"row-start-5 col-span-full mb-3.5 px-2"}>
                             <hr/>
                             <h2 className={"py-2"}>Education</h2>
                             <hr/>
                         </div>
 
-                        <div className={"grid gap-y-7 gap-x-5 row-start-5 col-span-full mb-3.5 px-2"}>
+                        <div className={"grid gap-y-7 gap-x-5 row-start-6 col-span-full mb-5 px-2"}>
                             <div className={"flex flex-col  row-start-1  col-span-1 px-2.5"}>
                                 <h4 className={"self-center"}>2015</h4>
                                 <h4 className={"self-center"}>-</h4>
